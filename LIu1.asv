@@ -41,12 +41,8 @@ xlabel('Priemerný Krvný Tlak');
 
 %%
 
-less25 = ageData(ageData < 25);
-between25To35 = ageData(ageData >= 25 & ageData < 35);
-between35To45 = ageData(ageData >= 35 & ageData < 45);
-between45To55 = ageData(ageData >= 45 & ageData < 55);
-between55To65 = ageData(ageData >= 55 & ageData < 65);
-over65 = ageData(ageData >= 65);
+less25 = ageData(ageData <= 25);
+between26-35 = ageData(ageData);
 
 % FirstMedication = data(:,8) >= 1;
 
