@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.12)  28 OCT 2015 11:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.12)  28 OCT 2015 12:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -348,19 +348,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] <fig/ages.png, id=9, 421.575pt x 316.18124pt>
 File: fig/ages.png Graphic file (type png)
  <use fig/ages.png>
-Package pdftex.def Info: fig/ages.png used on input line 25.
-(pdftex.def)             Requested size: 288.0011pt x 216.00389pt.
+Package pdftex.def Info: fig/ages.png used on input line 26.
+(pdftex.def)             Requested size: 360.0pt x 270.00487pt.
  [1 <./fig/ages.png (PNG copy)>] (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux) ) 
 Here is how much of TeX's memory you used:
- 2281 strings out of 493089
- 31073 string characters out of 6134841
+ 2283 strings out of 493089
+ 31089 string characters out of 6134841
  94276 words of memory out of 5000000
- 5747 multiletter control sequences out of 15000+600000
+ 5749 multiletter control sequences out of 15000+600000
  7580 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,23p,230b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,6n,23p,230b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.pdf (2 pages, 56317 bytes).
+Output written on /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.pdf (2 pages, 60156 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  18 compressed objects within 1 object stream
