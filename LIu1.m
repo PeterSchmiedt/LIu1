@@ -56,11 +56,36 @@ highMap = pressureData(pressureData >= 115 & pressureData < 125);
 insaneMap = pressureData(pressureData >= 125);
 
 %%
+%bol chory - liek - je chory
+wasSickData = data(:,4);
+tookFirst = data(:,8);
+isSickData = data(:,9);
 
+o00 = wasSickData == 0;
+o01 = wasSickData == 1;
+o11 = tookFirst == 1;
+o12 = tookFirst == 2;
+o20 = isSickData == 0;
+o21 = isSickData == 1;
 
-% FirstMedication = data(:,8) >= 1;
+tmpooo = o00 & o11 & o20;
+tmpooi = o00 & o11 & o21;
+tmpoio = o00 & o12 & o20;
+tmpoii = o00 & o12 & o21;
+tmpioo = o01 & o11 & o20;
+tmpioi = o01 & o11 & o21;
+tmpiio = o01 & o12 & o20;
+tmpiii = o01 & o12 & o21;
 
-% CuredWithFirst = data(:,8);
+ooo = tmpooo(tmpooo == 1);
+ooi = tmpooi(tmpooi == 1);
+oio = tmpoio(tmpoio == 1);
+oii = tmpoii(tmpoii == 1);
+ioo = tmpioo(tmpioo == 1);
+ioi = tmpioi(tmpioi == 1);
+iio = tmpiio(tmpiio == 1);
+iii = tmpiii(tmpiii == 1);
+
 
 
 
