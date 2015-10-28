@@ -9,15 +9,22 @@ age = data(:,1);
 
 %%
 %make histogram of ages
-hist(data(:,1),70);
-ylabel('Count');
-xlabel('Age');
+figure(1);
+range = min(age):max(age);
+% [bincounts, ind] = 
+hist(data(:,1),range);
+% bar(range, bincounts, 'histc');
+ylabel('Pocet');
+xlabel('Vek');
+
+
+length(age >= 70)
 
 %%
-
-hist(data(:,1),70);
+bmi = [18,24,30,40]
+histc(data(:,3),bmi);
 ylabel('Count');
-xlabel('Age');
+xlabel('BMI');
 
 % FirstMedication = data(:,8) >= 1;
 
