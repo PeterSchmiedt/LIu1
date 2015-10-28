@@ -58,6 +58,7 @@ obeseWeight = bmiData(bmiData >= 30);
 %%
 
 lowMap = pressureData(pressureData < 95);
+mediumMap = pressureData(pressureData >= 95 & pressureData < 105);
 normalMap = pressureData(pressureData >= 105 & pressureData < 115);
 highMap = pressureData(pressureData >= 115 & pressureData < 125);
 insaneMap = pressureData(pressureData >= 125);
