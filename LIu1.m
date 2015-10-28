@@ -1,17 +1,13 @@
 data = csvread('B.csv');
-
-% age = data(:,1);
-
-%%
-age = data(:,1);
-
-
+ 
+ageData = data(:,1);
+bmiData= data(:,3);
+pressureData = data(:,2);
 
 %%
 %make histogram of ages
 figure(1);
-% [bincounts, ind] = 
-ageData = data(:,1);
+% [bincounts, ind] =
 h = histogram(ageData);
 h.BinWidth = 0.9;
 h.NumBins = max(ageData) - min(ageData);
@@ -20,7 +16,6 @@ ylabel('Pocet');
 xlabel('Vek');
 
 %%
-bmiData= data(:,3);
 bmi = [0,18,19,24,25,29,30,max(bmiData)];
 
 figure(2);
@@ -31,9 +26,6 @@ ylabel('Pocet');
 xlabel('BMI');
 
 %%
-
-pressureData = data(:,2);
-
 figure(3);
 histogram(pressureData);
 ylabel('Pocet');
@@ -63,7 +55,13 @@ normalMap = pressureData(pressureData >= 105 & pressureData < 115);
 highMap = pressureData(pressureData >= 115 & pressureData < 125);
 insaneMap = pressureData(pressureData >= 125);
 
+%%
+
 
 % FirstMedication = data(:,8) >= 1;
 
 % CuredWithFirst = data(:,8);
+
+
+
+
