@@ -1,21 +1,18 @@
-values = csvread('B.csv');
+data = csvread('B.csv');
 
-h = figure(1);
-hist(values(:,1),49);
-saveas(h, 'histAges.pdf');
+% age = data(:,1);
 
 %%
+age = data(:,1);
 
-h = figure(1);
-hist(values(:,2),49);
-saveas(h, 'histPressures.pdf');
 
-%%
-h = figure(1);
-hist(values(:,3),19);
-saveas(h, 'histBmi.pdf');
 
 %%
+%make histogram of ages
+hist(data(:,1),70);
+ylabel('Count');
+xlabel('Age');
 
-%real analysis begins here
+% FirstMedication = data(:,8) >= 1;
 
+% CuredWithFirst = data(:,8);
