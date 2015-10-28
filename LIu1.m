@@ -10,15 +10,11 @@ age = data(:,1);
 %%
 %make histogram of ages
 figure(1);
-range = min(age):max(age);
 % [bincounts, ind] = 
-hist(data(:,1),range);
+hist(data(:,1),49);
 % bar(range, bincounts, 'histc');
 ylabel('Pocet');
 xlabel('Vek');
-
-
-length(age >= 70)
 
 %%
 bmi = [18,24,30,40]
