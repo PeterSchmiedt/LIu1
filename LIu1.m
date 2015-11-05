@@ -1,5 +1,5 @@
 data = csvread('B.csv');
- 
+
 ageData = data(:,1);
 bmiData= data(:,3);
 pressureData = data(:,2);
@@ -68,6 +68,8 @@ o12 = tookFirst == 2;
 o20 = isSickData == 0;
 o21 = isSickData == 1;
 
+%%
+
 tmpooo = o00 & o11 & o20;
 tmpooi = o00 & o11 & o21;
 tmpoio = o00 & o12 & o20;
@@ -85,6 +87,58 @@ ioo = tmpioo(tmpioo == 1);
 ioi = tmpioi(tmpioi == 1);
 iio = tmpiio(tmpiio == 1);
 iii = tmpiii(tmpiii == 1);
+
+%%
+
+%urci kolko ludi bolo vyliecenych v jednotlivych kategoriach pre jednotlive
+%lieky a potom na to pusti chi-kvadrat test a vsetko bude krasne.
+
+firstAndSick = tmpioo == 1;
+firstAndHealty = tmpioi == 1;
+secondAndSick = tmpiio == 1;
+secondAndHealty = tmpiii == 1;
+
+%%
+less25Bool = ageData < 25;
+less25AndfirstAndSick = firstAndSick & less25Bool;
+less25AndfirstAndSick = less25AndfirstAndSick(less25AndfirstAndSick == 1);
+less25AndfirstAndHealty = firstAndHealty & less25Bool;
+less25AndfirstAndHealty = less25AndfirstAndHealty(less25AndfirstAndHealty == 1);
+
+less25AndSecondAndSick = secondAndSick & less25Bool;
+less25AndSecondAndSick = less25AndSecondAndSick(less25AndSecondAndSick == 1);
+less25AndSecondAndHealty = secondAndHealty & less25Bool;
+less25AndSecondAndHealty = less25AndSecondAndHealty(less25AndSecondAndHealty == 1);
+
+%%
+between25To35Bool = ageData >= 25 & ageData < 35;
+between25To35AndfirstAndSick = firstAndSick & between25To35Bool;
+between25To35AndfirstAndSick = between25To35AndfirstAndSick(between25To35AndfirstAndSick == 1);
+between25To35AndfirstAndHealty = firstAndHealty & between25To35Bool;
+between25To35AndfirstAndHealty = between25To35AndfirstAndHealty(between25To35AndfirstAndHealty == 1);
+
+between25To35AndSecondAndSick = secondAndSick & between25To35Bool;
+between25To35AndSecondAndSick = between25To35AndSecondAndSick(between25To35AndSecondAndSick == 1);
+between25To35AndSecondAndHealty = secondAndHealty & between25To35Bool;
+between25To35AndSecondAndHealty = between25To35AndSecondAndHealty(between25To35AndSecondAndHealty == 1);
+
+%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
