@@ -137,6 +137,10 @@ over65AndSecondAndHealty = secondAndHealty & over65Bool;
 over65AndSecondAndHealty = over65AndSecondAndHealty(over65AndSecondAndHealty == 1);
 
 %%
+
+
+%bmiData
+
 underWeightBool = bmiData < 18.5;
 underWeightAndFirstAndSick = firstAndSick & underWeightBool;
 underWeightAndFirstAndSick = underWeightAndFirstAndSick(underWeightAndFirstAndSick == 1);
@@ -149,11 +153,110 @@ underWeightAndSecondAndHealty = firstAndHealty & underWeightBool;
 underWeightAndSecondAndHealty = underWeightAndSecondAndHealty(underWeightAndSecondAndHealty == 1);
 
 %%
+normalWeightBool = bmiData >= 18.5 & bmiData < 25;
+normalWeightAndFirstAndSick = firstAndSick & normalWeightBool;
+normalWeightAndFirstAndSick = normalWeightAndFirstAndSick(normalWeightAndFirstAndSick == 1);
+normalWeightAndFirstAndHealty = firstAndHealty & normalWeightBool;
+normalWeightAndFirstAndHealty = normalWeightAndFirstAndHealty(normalWeightAndFirstAndHealty == 1);
 
-%underWeight = bmiData(bmiData<18.5);
-%normalWeight = bmiData(bmiData >= 18.5 & bmiData < 25);
-%overWeight = bmiData(bmiData >= 25 & bmiData < 30);
-%obeseWeight = bmiData(bmiData >= 30);
+normalWeightAndSecondAndSick = firstAndSick & normalWeightBool;
+normalWeightAndSecondAndSick = normalWeightAndSecondAndSick(normalWeightAndSecondAndSick == 1);
+normalWeightAndSecondAndHealty = firstAndHealty & normalWeightBool;
+normalWeightAndSecondAndHealty = normalWeightAndSecondAndHealty(normalWeightAndSecondAndHealty == 1);
+
+
+%%
+overWeightBool = bmiData >= 25 & bmiData < 30;
+overWeightAndFirstAndSick = firstAndSick & overWeightBool;
+overWeightAndFirstAndSick = overWeightAndFirstAndSick(overWeightAndFirstAndSick == 1);
+overWeightAndFirstAndHealty = firstAndHealty & overWeightBool;
+overWeightAndFirstAndHealty = overWeightAndFirstAndHealty(overWeightAndFirstAndHealty == 1);
+
+overWeightAndSecondAndSick = firstAndSick & overWeightBool;
+overWeightAndSecondAndSick = overWeightAndSecondAndSick(overWeightAndSecondAndSick == 1);
+overWeightAndSecondAndHealty = firstAndHealty & overWeightBool;
+overWeightAndSecondAndHealty = overWeightAndSecondAndHealty(overWeightAndSecondAndHealty == 1);
+
+
+%%
+obeseWeightBool = bmiData >= 30;
+obeseWeightAndFirstAndSick = firstAndSick & obeseWeightBool;
+obeseWeightAndFirstAndSick = obeseWeightAndFirstAndSick(obeseWeightAndFirstAndSick == 1);
+obeseWeightAndFirstAndHealty = firstAndHealty & obeseWeightBool;
+obeseWeightAndFirstAndHealty = obeseWeightAndFirstAndHealty(obeseWeightAndFirstAndHealty == 1);
+
+obeseWeightAndSecondAndSick = firstAndSick & obeseWeightBool;
+obeseWeightAndSecondAndSick = obeseWeightAndSecondAndSick(obeseWeightAndSecondAndSick == 1);
+obeseWeightAndSecondAndHealty = firstAndHealty & obeseWeightBool;
+obeseWeightAndSecondAndHealty = obeseWeightAndSecondAndHealty(obeseWeightAndSecondAndHealty == 1);
+
+
+
+%%
+
+%mapData
+
+hypoMapBool = pressureData < 70;
+hypoMapAndFirstAndSick = firstAndSick & hypoMapBool;
+hypoMapAndFirstAndSick = hypoMapAndFirstAndSick(hypoMapAndFirstAndSick == 1);
+hypoMapAndFirstAndHealty = firstAndHealty & hypoMapBool;
+hypoMapAndFirstAndHealty = hypoMapAndFirstAndHealty(hypoMapAndFirstAndHealty == 1);
+
+hypoMapAndSecondAndSick = firstAndSick & hypoMapBool;
+hypoMapAndSecondAndSick = hypoMapAndSecondAndSick(hypoMapAndSecondAndSick == 1);
+hypoMapAndSecondAndHealty = firstAndHealty & hypoMapBool;
+hypoMapAndSecondAndHealty = hypoMapAndSecondAndHealty(hypoMapAndSecondAndHealty == 1);
+
+%%
+normalMapBool = bmiData >= 70 & bmiData < 93;
+normalMapAndFirstAndSick = firstAndSick & normalMapBool;
+normalMapAndFirstAndSick = normalMapAndFirstAndSick(normalMapAndFirstAndSick == 1);
+normalMapAndFirstAndHealty = firstAndHealty & normalMapBool;
+normalMapAndFirstAndHealty = normalMapAndFirstAndHealty(normalMapAndFirstAndHealty == 1);
+
+normalMapAndSecondAndSick = firstAndSick & normalMapBool;
+normalMapAndSecondAndSick = normalMapAndSecondAndSick(normalMapAndSecondAndSick == 1);
+normalMapAndSecondAndHealty = firstAndHealty & normalMapBool;
+normalMapAndSecondAndHealty = normalMapAndSecondAndHealty(normalMapAndSecondAndHealty == 1);
+
+%%
+prehyperMapBool = bmiData >= 93 & bmiData < 106;
+prehyperMapAndFirstAndSick = firstAndSick & prehyperMapBool;
+prehyperMapAndFirstAndSick = prehyperMapAndFirstAndSick(prehyperMapAndFirstAndSick == 1);
+prehyperMapAndFirstAndHealty = firstAndHealty & prehyperMapBool;
+prehyperMapAndFirstAndHealty = prehyperMapAndFirstAndHealty(prehyperMapAndFirstAndHealty == 1);
+
+prehyperMapAndSecondAndSick = firstAndSick & prehyperMapBool;
+prehyperMapAndSecondAndSick = prehyperMapAndSecondAndSick(prehyperMapAndSecondAndSick == 1);
+prehyperMapAndSecondAndHealty = firstAndHealty & prehyperMapBool;
+prehyperMapAndSecondAndHealty = prehyperMapAndSecondAndHealty(prehyperMapAndSecondAndHealty == 1);
+
+%%
+hyper1MapBool = bmiData >= 106 & bmiData < 120;
+hyper1MapAndFirstAndSick = firstAndSick & hyper1MapBool;
+hyper1MapAndFirstAndSick = hyper1MapAndFirstAndSick(hyper1MapAndFirstAndSick == 1);
+hyper1MapAndFirstAndHealty = firstAndHealty & hyper1MapBool;
+hyper1MapAndFirstAndHealty = hyper1MapAndFirstAndHealty(hyper1MapAndFirstAndHealty == 1);
+
+hyper1MapAndSecondAndSick = firstAndSick & hyper1MapBool;
+hyper1MapAndSecondAndSick = hyper1MapAndSecondAndSick(hyper1MapAndSecondAndSick == 1);
+hyper1MapAndSecondAndHealty = firstAndHealty & hyper1MapBool;
+hyper1MapAndSecondAndHealty = hyper1MapAndSecondAndHealty(hyper1MapAndSecondAndHealty == 1);
+
+%%
+hyper2MapBool = bmiData >= 120;
+hyper2MapAndFirstAndSick = firstAndSick & hyper2MapBool;
+hyper2MapAndFirstAndSick = hyper2MapAndFirstAndSick(hyper2MapAndFirstAndSick == 1);
+hyper2MapAndFirstAndHealty = firstAndHealty & hyper2MapBool;
+hyper2MapAndFirstAndHealty = hyper2MapAndFirstAndHealty(hyper2MapAndFirstAndHealty == 1);
+
+hyper2MapAndSecondAndSick = firstAndSick & hyper2MapBool;
+hyper2MapAndSecondAndSick = hyper2MapAndSecondAndSick(hyper2MapAndSecondAndSick == 1);
+hyper2MapAndSecondAndHealty = firstAndHealty & hyper2MapBool;
+hyper2MapAndSecondAndHealty = hyper2MapAndSecondAndHealty(hyper2MapAndSecondAndHealty == 1);
+
+%%
+%chi square
 
 
 
