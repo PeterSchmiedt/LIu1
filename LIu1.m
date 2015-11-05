@@ -137,7 +137,23 @@ over65AndSecondAndHealty = secondAndHealty & over65Bool;
 over65AndSecondAndHealty = over65AndSecondAndHealty(over65AndSecondAndHealty == 1);
 
 %%
+underWeightBool = bmiData < 18.5;
+underWeightAndFirstAndSick = firstAndSick & underWeightBool;
+underWeightAndFirstAndSick = underWeightAndFirstAndSick(underWeightAndFirstAndSick == 1);
+underWeightAndFirstAndHealty = firstAndHealty & underWeightBool;
+underWeightAndFirstAndHealty = underWeightAndFirstAndHealty(underWeightAndFirstAndHealty == 1);
 
+underWeightAndSecondAndSick = firstAndSick & underWeightBool;
+underWeightAndSecondAndSick = underWeightAndSecondAndSick(underWeightAndSecondAndSick == 1);
+underWeightAndSecondAndHealty = firstAndHealty & underWeightBool;
+underWeightAndSecondAndHealty = underWeightAndSecondAndHealty(underWeightAndSecondAndHealty == 1);
+
+%%
+
+%underWeight = bmiData(bmiData<18.5);
+%normalWeight = bmiData(bmiData >= 18.5 & bmiData < 25);
+%overWeight = bmiData(bmiData >= 25 & bmiData < 30);
+%obeseWeight = bmiData(bmiData >= 30);
 
 
 
