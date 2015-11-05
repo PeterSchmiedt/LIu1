@@ -29,14 +29,15 @@ xlabel('BMI');
 figure(3);
 histogram(pressureData);
 ylabel('Pocet');
-xlabel('Priemerný Krvný Tlak');
+xlabel('Priemern? Krvn? Tlak');
 
 %%
 
 less30 = ageData(ageData < 30);
-between30To44 = ageData(ageData >= 30 & ageData < 45);
-between45To64 = ageData(ageData >= 45 & ageData < 65);
-over65 = ageData(ageData >= 65);
+between30To44 = ageData(ageData >= 30 & ageData < 40);
+between40To49 = ageData(ageData >= 40 & ageData < 50);
+between50To59 = ageData(ageData >= 50 & ageData < 60);
+over60 = ageData(ageData >= 60);
 
 %%
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.12)  5 NOV 2015 22:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.12)  5 NOV 2015 23:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -363,22 +363,94 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 24.
-) [2
+ <fig/bmis.png, id=14, 421.575pt x 316.18124pt>
+File: fig/bmis.png Graphic file (type png)
+ <use fig/bmis.png>
+Package pdftex.def Info: fig/bmis.png used on input line 37.
+(pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
+ [2
 
- <./fig/ages.png (PNG copy)>] [3] (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S02SpracuvavaneData.aux)) ) 
+ <./fig/ages.png (PNG copy)>]
+
+LaTeX Warning: Command \' invalid in math mode on input line 43.
+
+./S02SpracuvavaneData.tex:43: Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.43 	\frac{váha}{výška^2}
+                             
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+./S02SpracuvavaneData.tex:43: You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.43 	\frac{váha}{výška^2}
+                             
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 43.
+
+./S02SpracuvavaneData.tex:43: Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.43 	\frac{váha}{výška^2}
+                             
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+./S02SpracuvavaneData.tex:43: You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.43 	\frac{váha}{výška^2}
+                             
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 43.
+
+./S02SpracuvavaneData.tex:43: Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.43 	\frac{váha}{výška^2}
+                             
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+./S02SpracuvavaneData.tex:43: You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.43 	\frac{váha}{výška^2}
+                             
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+) [3 <./fig/bmis.png (PNG copy)>] (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S02SpracuvavaneData.aux)) ) 
 Here is how much of TeX's memory you used:
- 2329 strings out of 493089
- 32217 string characters out of 6134841
- 98631 words of memory out of 5000000
- 5779 multiletter control sequences out of 15000+600000
+ 2335 strings out of 493089
+ 32306 string characters out of 6134841
+ 98639 words of memory out of 5000000
+ 5784 multiletter control sequences out of 15000+600000
  8811 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,8n,23p,442b,256s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.pdf (4 pages, 94887 bytes).
+Output written on /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.pdf (4 pages, 106578 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
