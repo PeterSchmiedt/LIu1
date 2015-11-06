@@ -1,8 +1,18 @@
 data = csvread('B.csv');
+populationData = csvread('populationData.csv');
 
 ageData = data(:,1);
 bmiData= data(:,3);
 pressureData = data(:,2);
+
+%%
+h = histogram(ageData);
+ageDataCorrected = h.Values;
+[nullHyp, percentage] = ttest2(ageDataCorrected', randn(length(h.Values)));
+
+
+
+
 
 %%
 %make histogram of ages
@@ -20,7 +30,6 @@ bmi = [0,18,19,24,25,29,30,max(bmiData)];
 
 figure(2);
 h = histogram(bmiData);
-h.BinWidth = 5;
 ylim = max(bmiData);
 ylabel('Pocet');
 xlabel('BMI');
