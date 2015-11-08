@@ -5,14 +5,18 @@ ageData = data(:,1);
 bmiData= data(:,3);
 pressureData = data(:,2);
 
-%%
+%% ttest hladina vyznamnosti
 h = histogram(ageData);
 ageDataCorrected = h.Values;
-[nullHyp, percentage] = ttest2(ageDataCorrected', randn(length(h.Values)));
-
-
-
-
+[ageNullHyp, agePercentage] = ttest(ageDataCorrected, 204);
+%% ttest hladina vyznamnosti
+h = histogram(bmiData);
+bmiDataCorrected = h.Values;
+[bmiNullHyp, bmiPercentage] = ttest(ageDataCorrected, 204);
+%% ttest hladina vyznamnosti
+h = histogram(pressureData);
+pressureDataCorrected = h.Values;
+[pressureNullHyp, pressurePercentage] = ttest(pressureDataCorrected, 204);
 
 %%
 %make histogram of ages
@@ -105,7 +109,7 @@ less30AndfirstAndSick = less30AndfirstAndSick(less30AndfirstAndSick == 1);
 less30AndfirstAndHealty = firstAndHealty & less30Bool;
 less30AndfirstAndHealty = less30AndfirstAndHealty(less30AndfirstAndHealty == 1);
 
-less30AndSecondAndSick = secondAndSick & less30Bool;
+less30AndSecondAndSick =secondAndSick & less30Bool;
 less30AndSecondAndSick = less30AndSecondAndSick(less30AndSecondAndSick == 1);
 less30AndSecondAndHealty = secondAndHealty & less30Bool;
 less30AndSecondAndHealty = less30AndSecondAndHealty(less30AndSecondAndHealty == 1);
@@ -147,10 +151,7 @@ over65AndSecondAndHealty = secondAndHealty & over65Bool;
 over65AndSecondAndHealty = over65AndSecondAndHealty(over65AndSecondAndHealty == 1);
 
 %%
-
-
 %bmiData
-
 underWeightBool = bmiData < 18.5;
 underWeightAndFirstAndSick = firstAndSick & underWeightBool;
 underWeightAndFirstAndSick = underWeightAndFirstAndSick(underWeightAndFirstAndSick == 1);
@@ -266,12 +267,20 @@ hyper2MapAndSecondAndHealty = firstAndHealty & hyper2MapBool;
 hyper2MapAndSecondAndHealty = hyper2MapAndSecondAndHealty(hyper2MapAndSecondAndHealty == 1);
 
 %%
-%chi square
+%prva & druha sekundarna pred/po liecbe
+
+primarBeforeData = data(:,5);
+secundarBeforeData = data(:,6);
+primarAfterData = data(:,10);
+secundarAfterData = data(:,11);
+
+primarBefore = primarBeforeData(primarBeforeData == 1);
+primarAfter = primarAfterData(primarAfterData == 1);
+secundarBefore = secundarBeforeData(secundarBeforeData == 1);
+secundarAfter = secundarAfterData(secundarAfterData == 1);
 
 
-
-
-
+%%
 
 
 
