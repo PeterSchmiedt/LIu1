@@ -1,6 +1,12 @@
-function ID = NewPatient( age, pressure, bmi, otherMed, data)
+function [ID, index] = NewPatient(row, index)
 
 %vek/map/bmi/lek/jina medikace
+
+age = row(1);
+pressure = row(2);
+bmi = row(3);
+
+otherMed = row(7);
 
 if (age<30) 
     ID = 1000;
