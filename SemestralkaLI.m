@@ -36,28 +36,49 @@ newIdsA(newIdsA==0) = [];
 newIdsB(newIdsB==0) = [];
 
 %%
-newIdsMatrix = zeros(length(newIdsA), 2);
+newIdsMatrix = zeros(length(newIdsA), 6);
 
-newIdsMatrix(:, 2) = newIdsA';
 newIdsMatrix(:, 1) = newIdsB';
-
-%csvwrite('output.csv', newIdsMatrix);
-%^just valid data
+newIdsMatrix(:, 2) = newIdsA';
 
 %%
 idData = data(:,12);
+
+firstCuredArray = zeros(length(newIdsB), 1);
+firstUnCuredArray = zeros(length(newIdsB), 1);
+secondCuredArray = zeros(length(newIdsB), 1);
+secondUnCuredArray = zeros(length(newIdsB), 1);
+
 for i = 1 : length(newIdsB)
     newId = newIdsB(i);
     newData = data(idData == newId, :);
     
-    first = newData(newData(newData(:, 8) == 1), :);
+    first = newData(newData(:, 8) == 1, :);
+    second = newData(newData(:, 8) == 2, :);
+    
+    firstCured = first(first(:, 9) == 0, :);
+    firstUnCured = first(first(:, 9) == 1, :);
+    secondCured = first(first(:, 9) == 0, :);
+    secondUnCured = first(first(:, 9) == 1, :);
+    
+    firstCuredArray(i) = length(firstCured);
+    firstUnCuredArray(i) = length(firstUnCured);
+    secondCuredArray(i) = length(secondCured);
+    secondUnCuredArray(i) = length(secondUnCured);
 end
 
+%%
+
+newIdsMatrix(:, 3) = firstCuredArray;
+newIdsMatrix(:, 4) = firstUnCuredArray;
+newIdsMatrix(:, 5) = secondCuredArray;
+newIdsMatrix(:, 6) = secondUnCuredArray;
+
+%%
 
 
 
-
-
+%csvwrite('output.csv', newIdsMatrix);
 
 
 
