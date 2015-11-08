@@ -2,12 +2,13 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux
 A level-1 auxiliary file: S02SpracuvavaneData.aux
+A level-1 auxiliary file: S03RozhodovaciSystem.aux
 The style file: plain.bst
 I found no \citation commands---while reading file /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux
 Database file #1: ../literatura.bib
 You've used 0 entries,
             2118 wiz_defined-function locations,
-            498 strings with 4135 characters,
+            499 strings with 4159 characters,
 and the built_in function-call counts, 18 in all, are:
 = -- 0
 > -- 0
