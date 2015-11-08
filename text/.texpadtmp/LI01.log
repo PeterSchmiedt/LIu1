@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.12)  8 NOV 2015 20:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.12)  8 NOV 2015 20:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -308,7 +308,7 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S02SpracuvavaneData.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S03RozhodovaciSystem.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S04TestovanieLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A01TabulkaIDLiekov.aux))
+) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S02SpracuvavaneData.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S03RozhodovaciSystem.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S04TestovanieLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A01TabulkaIDLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A02RozhodovaciStrom.aux))
 \openout1 = `LI01.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -323,7 +323,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
- (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count91
 \scratchdimen=\dimen108
@@ -433,7 +434,7 @@ Overfull \hbox (11.17506pt too wide) in paragraph at lines 98--99
 \openout2 = `S03RozhodovaciSystem.aux'.
 
  (./S03RozhodovaciSystem.tex
-Overfull \hbox (77.15326pt too wide) in paragraph at lines 7--22
+Overfull \hbox (8.3487pt too wide) in paragraph at lines 7--22
  [][] 
  []
 
@@ -457,20 +458,71 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
  (./A01TabulkaIDLiekov.tex) [9
 
-] (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S02SpracuvavaneData.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S03RozhodovaciSystem.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S04TestovanieLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A01TabulkaIDLiekov.aux)) ) 
+]
+\openout2 = `A02RozhodovaciStrom.aux'.
+
+ (./A02RozhodovaciStrom.tex <fig/DecisionTreeUnder30.png, id=44, 234.8775pt x 603.4545pt>
+File: fig/DecisionTreeUnder30.png Graphic file (type png)
+ <use fig/DecisionTreeUnder30.png>
+Package pdftex.def Info: fig/DecisionTreeUnder30.png used on input line 6.
+(pdftex.def)             Requested size: 216.0022pt x 554.96388pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig/DecisionTreeUnder40.png, id=46, 234.8775pt x 605.26125pt>
+File: fig/DecisionTreeUnder40.png Graphic file (type png)
+ <use fig/DecisionTreeUnder40.png>
+Package pdftex.def Info: fig/DecisionTreeUnder40.png used on input line 13.
+(pdftex.def)             Requested size: 216.0022pt x 556.62544pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig/DecisionTreeUnder50.png, id=47, 236.68425pt x 599.841pt>
+File: fig/DecisionTreeUnder50.png Graphic file (type png)
+ <use fig/DecisionTreeUnder50.png>
+Package pdftex.def Info: fig/DecisionTreeUnder50.png used on input line 20.
+(pdftex.def)             Requested size: 216.0022pt x 547.44875pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig/DecisionTreeUnder60.png, id=48, 231.264pt x 599.841pt>
+File: fig/DecisionTreeUnder60.png Graphic file (type png)
+ <use fig/DecisionTreeUnder60.png>
+Package pdftex.def Info: fig/DecisionTreeUnder60.png used on input line 27.
+(pdftex.def)             Requested size: 216.0022pt x 560.281pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig/DecisionTreeOver60.png, id=49, 234.8775pt x 601.64775pt>
+File: fig/DecisionTreeOver60.png Graphic file (type png)
+ <use fig/DecisionTreeOver60.png>
+Package pdftex.def Info: fig/DecisionTreeOver60.png used on input line 34.
+(pdftex.def)             Requested size: 216.0022pt x 553.30232pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [10
+
+
+] [11 <./fig/DecisionTreeUnder30.png>] [12 <./fig/DecisionTreeUnder40.png>] [13 <./fig/DecisionTreeUnder50.png>] [14 <./fig/DecisionTreeUnder60.png>] [15 <./fig/DecisionTreeOver60.png>] (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S02SpracuvavaneData.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S03RozhodovaciSystem.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S04TestovanieLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A01TabulkaIDLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A02RozhodovaciStrom.aux)) ) 
 Here is how much of TeX's memory you used:
- 3020 strings out of 493089
- 41517 string characters out of 6134841
- 114830 words of memory out of 5000000
- 6428 multiletter control sequences out of 15000+600000
+ 3060 strings out of 493089
+ 42787 string characters out of 6134841
+ 115128 words of memory out of 5000000
+ 6456 multiletter control sequences out of 15000+600000
  8811 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,35p,456b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.pdf (10 pages, 143067 bytes).
+Output written on /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.pdf (16 pages, 366110 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
