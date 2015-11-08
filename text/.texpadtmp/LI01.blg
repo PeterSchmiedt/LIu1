@@ -4,6 +4,7 @@ The top-level auxiliary file: /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.t
 A level-1 auxiliary file: S02SpracuvavaneData.aux
 A level-1 auxiliary file: S03RozhodovaciSystem.aux
 A level-1 auxiliary file: S04TestovanieLiekov.aux
+A level-1 auxiliary file: S05Zaver.aux
 The style file: plain.bst
 A level-1 auxiliary file: A01TabulkaIDLiekov.aux
 A level-1 auxiliary file: A02RozhodovaciStrom.aux
@@ -11,7 +12,7 @@ I found no \citation commands---while reading file /Users/peterschmiedt/Document
 Database file #1: ../literatura.bib
 You've used 0 entries,
             2118 wiz_defined-function locations,
-            502 strings with 4227 characters,
+            503 strings with 4239 characters,
 and the built_in function-call counts, 18 in all, are:
 = -- 0
 > -- 0
