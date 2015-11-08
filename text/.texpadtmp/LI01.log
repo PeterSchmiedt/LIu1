@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.12)  8 NOV 2015 20:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.12)  8 NOV 2015 20:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -471,16 +471,12 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 File: fig/DecisionTreeUnder30.png Graphic file (type png)
  <use fig/DecisionTreeUnder30.png>
 Package pdftex.def Info: fig/DecisionTreeUnder30.png used on input line 6.
-(pdftex.def)             Requested size: 216.0022pt x 554.96388pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<fig/DecisionTreeUnder40.png, id=49, 234.8775pt x 605.26125pt>
+(pdftex.def)             Requested size: 180.0pt x 462.4607pt.
+ <fig/DecisionTreeUnder40.png, id=49, 234.8775pt x 605.26125pt>
 File: fig/DecisionTreeUnder40.png Graphic file (type png)
  <use fig/DecisionTreeUnder40.png>
 Package pdftex.def Info: fig/DecisionTreeUnder40.png used on input line 13.
-(pdftex.def)             Requested size: 216.0022pt x 556.62544pt.
+(pdftex.def)             Requested size: 180.0pt x 463.84529pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -489,7 +485,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: fig/DecisionTreeUnder50.png Graphic file (type png)
  <use fig/DecisionTreeUnder50.png>
 Package pdftex.def Info: fig/DecisionTreeUnder50.png used on input line 20.
-(pdftex.def)             Requested size: 216.0022pt x 547.44875pt.
+(pdftex.def)             Requested size: 180.0pt x 456.20424pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -498,7 +494,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: fig/DecisionTreeUnder60.png Graphic file (type png)
  <use fig/DecisionTreeUnder60.png>
 Package pdftex.def Info: fig/DecisionTreeUnder60.png used on input line 27.
-(pdftex.def)             Requested size: 216.0022pt x 560.281pt.
+(pdftex.def)             Requested size: 180.0pt x 466.89473pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -507,7 +503,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: fig/DecisionTreeOver60.png Graphic file (type png)
  <use fig/DecisionTreeOver60.png>
 Package pdftex.def Info: fig/DecisionTreeOver60.png used on input line 34.
-(pdftex.def)             Requested size: 216.0022pt x 553.30232pt.
+(pdftex.def)             Requested size: 180.0pt x 461.0761pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -515,7 +511,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) [11
 
 
-] [12 <./fig/DecisionTreeUnder30.png>] [13 <./fig/DecisionTreeUnder40.png>] [14 <./fig/DecisionTreeUnder50.png>] [15 <./fig/DecisionTreeUnder60.png>] [16 <./fig/DecisionTreeOver60.png>] (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S02SpracuvavaneData.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S03RozhodovaciSystem.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S04TestovanieLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S05Zaver.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A01TabulkaIDLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A02RozhodovaciStrom.aux)) ) 
+ <./fig/DecisionTreeUnder30.png>] [12 <./fig/DecisionTreeUnder40.png>] [13 <./fig/DecisionTreeUnder50.png>] [14 <./fig/DecisionTreeUnder60.png>] [15 <./fig/DecisionTreeOver60.png>] (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S02SpracuvavaneData.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S03RozhodovaciSystem.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S04TestovanieLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S05Zaver.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A01TabulkaIDLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A02RozhodovaciStrom.aux)) ) 
 Here is how much of TeX's memory you used:
  3068 strings out of 493089
  43116 string characters out of 6134841
@@ -525,10 +521,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  41i,10n,35p,456b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.pdf (17 pages, 366668 bytes).
+Output written on /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.pdf (16 pages, 366465 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
