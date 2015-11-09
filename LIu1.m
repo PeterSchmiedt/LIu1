@@ -46,7 +46,7 @@ xlabel('Priemern? Krvn? Tlak');
 
 %%
 
-less30 = ageData(ageData < 30);
+less30 = ageData(ageData < 25);
 between30To44 = ageData(ageData >= 30 & ageData < 40);
 between40To49 = ageData(ageData >= 40 & ageData < 50);
 between50To59 = ageData(ageData >= 50 & ageData < 60);
