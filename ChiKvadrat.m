@@ -16,5 +16,5 @@ end
 
 %%
 
-sort(data(:,7));
+csvwrite('datachisq.csv', data);
 

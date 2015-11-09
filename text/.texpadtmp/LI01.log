@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.12)  9 NOV 2015 21:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.12)  10 NOV 2015 00:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -308,35 +308,62 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S02SpracuvavaneData.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S03RozhodovaciSystem.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S04TestovanieLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S05Zaver.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A01TabulkaIDLiekov.aux)
-(/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A02RozhodovaciStrom.aux))
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count91
+\rotFPtop=\skip46
+\rotFPbot=\skip47
+\rot@float@box=\box26
+\rot@mess@toks=\toks19
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip48
+\LTright=\skip49
+\LTpre=\skip50
+\LTpost=\skip51
+\LTchunksize=\count92
+\LTcapwidth=\dimen108
+\LT@head=\box27
+\LT@firsthead=\box28
+\LT@foot=\box29
+\LT@lastfoot=\box30
+\LT@cols=\count93
+\LT@rows=\count94
+\c@LT@tables=\count95
+\c@LT@chunks=\count96
+\LT@p@ftn=\toks20
+) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S02SpracuvavaneData.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S03RozhodovaciSystem.aux)
+(/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S04TestovanieLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S05Zaver.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A01TabulkaIDLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A02RozhodovaciStrom.aux))
 \openout1 = `LI01.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
-\scratchdimen=\dimen108
-\scratchbox=\box26
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count94
-\MPscratchDim=\dimen109
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count97
+\scratchdimen=\dimen109
+\scratchbox=\box31
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen110
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks22
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
  (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
@@ -374,11 +401,11 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 18.
+(Font)              <12> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
+(Font)              <6> on input line 24.
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1]
@@ -458,17 +485,21 @@ Overfull \hbox (8.3487pt too wide) in paragraph at lines 7--22
 ]
 \openout2 = `A01TabulkaIDLiekov.aux'.
 
- (./A01TabulkaIDLiekov.tex) [10
+ (./A01TabulkaIDLiekov.tex
+Underfull \vbox (badness 10000) detected at line 26
+ []
 
-]
+[10
+
+]) [11]
 \openout2 = `A02RozhodovaciStrom.aux'.
 
- (./A02RozhodovaciStrom.tex <fig/DecisionTreeUnder30.png, id=48, 234.8775pt x 603.4545pt>
+ (./A02RozhodovaciStrom.tex <fig/DecisionTreeUnder30.png, id=51, 234.8775pt x 603.4545pt>
 File: fig/DecisionTreeUnder30.png Graphic file (type png)
  <use fig/DecisionTreeUnder30.png>
 Package pdftex.def Info: fig/DecisionTreeUnder30.png used on input line 6.
 (pdftex.def)             Requested size: 180.0pt x 462.4607pt.
- <fig/DecisionTreeUnder40.png, id=50, 234.8775pt x 605.26125pt>
+ <fig/DecisionTreeUnder40.png, id=53, 234.8775pt x 605.26125pt>
 File: fig/DecisionTreeUnder40.png Graphic file (type png)
  <use fig/DecisionTreeUnder40.png>
 Package pdftex.def Info: fig/DecisionTreeUnder40.png used on input line 13.
@@ -477,7 +508,7 @@ Package pdftex.def Info: fig/DecisionTreeUnder40.png used on input line 13.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/DecisionTreeUnder50.png, id=51, 236.68425pt x 599.841pt>
+<fig/DecisionTreeUnder50.png, id=54, 236.68425pt x 599.841pt>
 File: fig/DecisionTreeUnder50.png Graphic file (type png)
  <use fig/DecisionTreeUnder50.png>
 Package pdftex.def Info: fig/DecisionTreeUnder50.png used on input line 20.
@@ -486,7 +517,7 @@ Package pdftex.def Info: fig/DecisionTreeUnder50.png used on input line 20.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/DecisionTreeUnder60.png, id=52, 231.264pt x 599.841pt>
+<fig/DecisionTreeUnder60.png, id=55, 231.264pt x 599.841pt>
 File: fig/DecisionTreeUnder60.png Graphic file (type png)
  <use fig/DecisionTreeUnder60.png>
 Package pdftex.def Info: fig/DecisionTreeUnder60.png used on input line 27.
@@ -495,7 +526,7 @@ Package pdftex.def Info: fig/DecisionTreeUnder60.png used on input line 27.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/DecisionTreeOver60.png, id=53, 234.8775pt x 601.64775pt>
+<fig/DecisionTreeOver60.png, id=56, 234.8775pt x 601.64775pt>
 File: fig/DecisionTreeOver60.png Graphic file (type png)
  <use fig/DecisionTreeOver60.png>
 Package pdftex.def Info: fig/DecisionTreeOver60.png used on input line 34.
@@ -504,23 +535,23 @@ Package pdftex.def Info: fig/DecisionTreeOver60.png used on input line 34.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [11
+) [12
 
 
- <./fig/DecisionTreeUnder30.png>] [12 <./fig/DecisionTreeUnder40.png>] [13 <./fig/DecisionTreeUnder50.png>] [14 <./fig/DecisionTreeUnder60.png>] [15 <./fig/DecisionTreeOver60.png>] (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S02SpracuvavaneData.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S03RozhodovaciSystem.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S04TestovanieLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S05Zaver.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A01TabulkaIDLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A02RozhodovaciStrom.aux)) ) 
+ <./fig/DecisionTreeUnder30.png>] [13 <./fig/DecisionTreeUnder40.png>] [14 <./fig/DecisionTreeUnder50.png>] [15 <./fig/DecisionTreeUnder60.png>] [16 <./fig/DecisionTreeOver60.png>] (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S02SpracuvavaneData.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S03RozhodovaciSystem.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S04TestovanieLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S05Zaver.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A01TabulkaIDLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A02RozhodovaciStrom.aux)) ) 
 Here is how much of TeX's memory you used:
- 3072 strings out of 493089
- 43190 string characters out of 6134841
- 115370 words of memory out of 5000000
- 6460 multiletter control sequences out of 15000+600000
+ 3264 strings out of 493089
+ 45606 string characters out of 6134841
+ 139376 words of memory out of 5000000
+ 6643 multiletter control sequences out of 15000+600000
  9157 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,35p,456b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.pdf (16 pages, 379872 bytes).
+Output written on /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.pdf (17 pages, 381513 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
