@@ -35,7 +35,7 @@ newIdsA(newIdsA==0) = [];
 newIdsB(newIdsB==0) = [];
 
 %%
-newIdsMatrix = zeros(length(newIdsA), 6);
+newIdsMatrix = zeros(length(newIdsA), 10);
 
 newIdsMatrix(:, 1) = newIdsB';
 newIdsMatrix(:, 2) = newIdsA';
@@ -66,15 +66,7 @@ for i = 1 : length(newIdsB)
     firstCuredArray(i) = length(firstCured(:,1));
     firstUnCuredArray(i) = length(firstUnCured(:,1));
     secondCuredArray(i) = length(secondCured(:,1));
-    secondUnCuredArray(i) = length(secondUnCured(:,1));
-        
-    expected = length(firstCured(:,1)) + length(secondCured(:,1)) + length(firstUnCured(:,1)) + length(secondUnCured(:,1));
-    expectedF = expected * 0.2975;
-    expectedS = expected * 0.8;
-    
-    chi2f(i) = (firstCuredArray(i) - expectedF)^2 / expectedF;
-    chi2s(i) = (secondCuredArray(i) - expectedS)^2 / expectedS;
-    
+    secondUnCuredArray(i) = length(secondUnCured(:,1));           
 end
 
 %%
@@ -85,12 +77,19 @@ newIdsMatrix(:, 5) = secondCuredArray;
 newIdsMatrix(:, 6) = secondUnCuredArray;
 newIdsMatrix(:, 7) = chi2f;
 newIdsMatrix(:, 8) = chi2s;
-
 %%
 
-[h,p] = chi2gof(newIdsMatrix(:,3));
+%csvwrite('output.csv', newIdsMatrix);
 
-csvwrite('output.csv', newIdsMatrix);
+for i = 1 : length(newIdsB) 
+    
+    %expected = length(firstCured(:,1)) + length(secondCured(:,1)) + length(firstUnCured(:,1)) + length(secondUnCured(:,1));
+    %expectedF = (length(firstCured(:,i)) + length(firstUnCured(:,i))) * 0.2975;
+    %expectedS = (length(secondCured(:,i)) + length(secondUnCured(:,i))) * 0.8;
+    
+    %chi2f(i) = (firstCuredArray(i) - expectedF)^2 / expectedF;
+    %chi2s(i) = (secondCuredArray(i) - expectedS)^2 / expectedS;
+end
 
 
 
