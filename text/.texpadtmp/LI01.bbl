@@ -1,3 +1,13 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{bib:wiki-chi-squared}
+Wikipedia.
+\newblock Chi-squared test, 2015.
+\newblock [Online; pristupované 6-November-2015].
+
+\bibitem{bib:biomedicina-statistika}
+Jana Zvárová.
+\newblock {\em Základy statistiky pro biomedicínské obory}.
+\newblock Karolinum, 2007.
 
 \end{thebibliography}
