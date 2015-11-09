@@ -19,12 +19,11 @@ end
 
 newIdsA = zeros(1, length(a(a < 25)));
 newIdsB = zeros(1, length(a(a < 25)));
-relevantIds = zeros(1, length(a(a < 25)));
 
 %%
 j = 1;
-
-for i = 1 : length(newIdsA)
+sum = 0;
+for i = 1 : length(a)
     if (a(i) > 25) 
         newIdsA(j) = a(i);
         newIdsB(j) = b(i);
@@ -58,13 +57,14 @@ for i = 1 : length(newIdsB)
     
     firstCured = first(first(:, 9) == 0, :);
     firstUnCured = first(first(:, 9) == 1, :);
-    secondCured = first(first(:, 9) == 0, :);
-    secondUnCured = first(first(:, 9) == 1, :);
+    secondCured = second(second(:, 9) == 0, :);
+    secondUnCured = second(second(:, 9) == 1, :);
     
     firstCuredArray(i) = length(firstCured);
     firstUnCuredArray(i) = length(firstUnCured);
     secondCuredArray(i) = length(secondCured);
     secondUnCuredArray(i) = length(secondUnCured);
+    
 end
 
 %%
@@ -77,8 +77,7 @@ newIdsMatrix(:, 6) = secondUnCuredArray;
 %%
 
 
-
-%csvwrite('output.csv', newIdsMatrix);
+csvwrite('output.csv', newIdsMatrix);
 
 
 
