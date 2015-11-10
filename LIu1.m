@@ -273,11 +273,27 @@ primarBeforeData = data(:,5);
 secundarBeforeData = data(:,6);
 primarAfterData = data(:,10);
 secundarAfterData = data(:,11);
+mediData = data(:,8);
 
-primarBefore = primarBeforeData(primarBeforeData == 1);
-primarAfter = primarAfterData(primarAfterData == 1);
-secundarBefore = secundarBeforeData(secundarBeforeData == 1);
-secundarAfter = secundarAfterData(secundarAfterData == 1);
+mediFirst = mediData(mediData == 1);
+mediSecond = mediData(mediData == 2);
+
+%%
+
+length(primarBeforeData(primarBeforeData == 1 & mediData == 1))
+length(primarBeforeData(primarBeforeData == 1 & mediData == 2))
+length(secundarBeforeData(secundarBeforeData == 1 & mediData == 1))
+length(secundarBeforeData(secundarBeforeData == 1 & mediData == 2))
+
+primarFirstNotSick = primarFirstNotSick(primarBeforeData == 1 & mediData == 1 & primarAfterData == 0);
+primarFirstSick = primarFirstSick(primarBeforeData == 1 & mediData == 1 & primarAfterData == 1);
+secundarFirstNotSick = secundarFirstNotSick(secundarBeforeData == 1 & mediData == 1 & secundarAfterData == 0);
+secundarFirstSick = secundarFirstSick(secundarBeforeData == 1 & mediData == 1 & secundarAfterData == 1);
+
+primarSecondNotSick = primarSecondNotSick(primarBeforeData == 1 & mediData == 2 & primarAfterData == 0);
+primarSecondSick = primarSecondSick(primarBeforeData == 1 & mediData == 2 & primarAfterData == 1);
+secundarSecondNotSick = secundarSecondNotSick(secundarBeforeData == 1 & mediData == 2 & secundarAfterData == 0);
+secundarSecondSick = secundarSecondSick(secundarBeforeData == 1 & mediData == 2 & secundarAfterData == 1);
 
 
 %%

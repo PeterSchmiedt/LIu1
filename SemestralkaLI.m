@@ -91,6 +91,12 @@ for i = 1 : length(newIdsB)
     %chi2s(i) = (secondCuredArray(i) - expectedS)^2 / expectedS;
 end
 
+%%
+%pre oba lieky
 
+%prva sekundarna vyliecena
+%prva sekundarna nevyliecena
+%druha sekundarna vyliecena
+%druha sekundarna nevyliecena
 
 
