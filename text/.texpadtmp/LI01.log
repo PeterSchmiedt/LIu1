@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.12)  10 NOV 2015 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.12)  10 NOV 2015 21:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -399,25 +399,27 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 452.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 24.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 24.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 24.
+)) <logo/cvut.jpg, id=1, 365.9271pt x 277.9986pt>
+File: logo/cvut.jpg Graphic file (type jpg)
+ <use logo/cvut.jpg>
+Package pdftex.def Info: logo/cvut.jpg used on input line 32.
+(pdftex.def)             Requested size: 180.0pt x 136.74649pt.
  [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1]
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo/cvut.jpg>] [1]
 \openout2 = `S02SpracuvavaneData.aux'.
 
- (./S02SpracuvavaneData.tex <fig/ages.png, id=13, 421.575pt x 316.18124pt>
+ (./S02SpracuvavaneData.tex <fig/ages.png, id=16, 421.575pt x 316.18124pt>
 File: fig/ages.png Graphic file (type png)
  <use fig/ages.png>
 Package pdftex.def Info: fig/ages.png used on input line 14.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 21.
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 23.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -426,7 +428,7 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 23.
  [2
 
- <./fig/ages.png (PNG copy)>] <fig/histBmi.png, id=19, 1124.2pt x 843.15pt>
+ <./fig/ages.png (PNG copy)>] <fig/histBmi.png, id=22, 1124.2pt x 843.15pt>
 File: fig/histBmi.png Graphic file (type png)
  <use fig/histBmi.png>
 Package pdftex.def Info: fig/histBmi.png used on input line 36.
@@ -436,7 +438,7 @@ Overfull \hbox (17.91933pt too wide) in paragraph at lines 43--48
  [][] 
  []
 
-<fig/pressures.png, id=20, 421.575pt x 316.18124pt>
+<fig/pressures.png, id=23, 421.575pt x 316.18124pt>
 File: fig/pressures.png Graphic file (type png)
  <use fig/pressures.png>
 Package pdftex.def Info: fig/pressures.png used on input line 63.
@@ -494,12 +496,12 @@ Underfull \vbox (badness 10000) detected at line 26
 ]) [11]
 \openout2 = `A02RozhodovaciStrom.aux'.
 
- (./A02RozhodovaciStrom.tex <fig/DecisionTreeUnder30.png, id=51, 234.8775pt x 603.4545pt>
+ (./A02RozhodovaciStrom.tex <fig/DecisionTreeUnder30.png, id=54, 234.8775pt x 603.4545pt>
 File: fig/DecisionTreeUnder30.png Graphic file (type png)
  <use fig/DecisionTreeUnder30.png>
 Package pdftex.def Info: fig/DecisionTreeUnder30.png used on input line 6.
 (pdftex.def)             Requested size: 180.0pt x 462.4607pt.
- <fig/DecisionTreeUnder40.png, id=53, 234.8775pt x 605.26125pt>
+ <fig/DecisionTreeUnder40.png, id=56, 234.8775pt x 605.26125pt>
 File: fig/DecisionTreeUnder40.png Graphic file (type png)
  <use fig/DecisionTreeUnder40.png>
 Package pdftex.def Info: fig/DecisionTreeUnder40.png used on input line 13.
@@ -508,7 +510,7 @@ Package pdftex.def Info: fig/DecisionTreeUnder40.png used on input line 13.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/DecisionTreeUnder50.png, id=54, 236.68425pt x 599.841pt>
+<fig/DecisionTreeUnder50.png, id=57, 236.68425pt x 599.841pt>
 File: fig/DecisionTreeUnder50.png Graphic file (type png)
  <use fig/DecisionTreeUnder50.png>
 Package pdftex.def Info: fig/DecisionTreeUnder50.png used on input line 20.
@@ -517,7 +519,7 @@ Package pdftex.def Info: fig/DecisionTreeUnder50.png used on input line 20.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/DecisionTreeUnder60.png, id=55, 231.264pt x 599.841pt>
+<fig/DecisionTreeUnder60.png, id=58, 231.264pt x 599.841pt>
 File: fig/DecisionTreeUnder60.png Graphic file (type png)
  <use fig/DecisionTreeUnder60.png>
 Package pdftex.def Info: fig/DecisionTreeUnder60.png used on input line 27.
@@ -526,7 +528,7 @@ Package pdftex.def Info: fig/DecisionTreeUnder60.png used on input line 27.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/DecisionTreeOver60.png, id=56, 234.8775pt x 601.64775pt>
+<fig/DecisionTreeOver60.png, id=59, 234.8775pt x 601.64775pt>
 File: fig/DecisionTreeOver60.png Graphic file (type png)
  <use fig/DecisionTreeOver60.png>
 Package pdftex.def Info: fig/DecisionTreeOver60.png used on input line 34.
@@ -540,18 +542,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
  <./fig/DecisionTreeUnder30.png>] [13 <./fig/DecisionTreeUnder40.png>] [14 <./fig/DecisionTreeUnder50.png>] [15 <./fig/DecisionTreeUnder60.png>] [16 <./fig/DecisionTreeOver60.png>] (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.aux (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S02SpracuvavaneData.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S03RozhodovaciSystem.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S04TestovanieLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/S05Zaver.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A01TabulkaIDLiekov.aux) (/Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/A02RozhodovaciStrom.aux)) ) 
 Here is how much of TeX's memory you used:
- 3264 strings out of 493089
- 45606 string characters out of 6134841
- 139376 words of memory out of 5000000
- 6643 multiletter control sequences out of 15000+600000
- 9157 words of font info for 32 fonts, out of 8000000 for 9000
+ 3275 strings out of 493089
+ 45742 string characters out of 6134841
+ 141366 words of memory out of 5000000
+ 6650 multiletter control sequences out of 15000+600000
+ 9798 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,35p,684b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.pdf (17 pages, 382218 bytes).
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on /Users/peterschmiedt/Documents/MATLAB/LIu1/text/.texpadtmp/LI01.pdf (17 pages, 1188454 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 114 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

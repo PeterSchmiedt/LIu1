@@ -12,7 +12,13 @@ for i=1:length(data)
     
     data(i,7) = chisq;
     
+    data(i,8) = 3.84;
+    
 end
+
+%%
+
+
 
 %%
 
